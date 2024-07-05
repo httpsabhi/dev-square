@@ -1,11 +1,66 @@
-const express = require("express")
-const cors = require("cors")
+require('dotenv').config();
+const express = require('express');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const cors = require('cors');
+const { PrismaClient } = require('@prisma/client');
 
-const app = express()
+const prisma = new PrismaClient();
+const app = express();
+const PORT = process.env.PORT || 3001;
 
-app.use(express.json())
-app.use(cors())
+app.use(express.json());
+app.use(cors({
+    origin: "https://devsquaree.netlify.app/" || "http://localhost:5173/"
+}));
 
+const JWT_SECRET = process.env.JWT_SECRET;
 
+// Signup route
+app.post('/signup', async (req, res) => {
+  const { email, username, name, password, userType } = req.body;
 
-app.listen(4000, ()=> console.log("Server on localhost:4000"))
+  const hashedPassword = await bcrypt.hash(password, 10);
+
+  try {
+    const user = await prisma.user.create({
+      data: {
+        email,
+        username,
+        name,
+        password: hashedPassword,
+        userType,
+      },
+    });
+    res.status(201).json(user);
+  } catch (error) {
+    res.status(400).json({ error: 'User creation failed' });
+  }
+});
+
+// Login route
+app.post('/login', async (req, res) => {
+  const { username, password } = req.body;
+
+  const user = await prisma.user.findUnique({
+    where: { username },
+  });
+
+  if (!user) {
+    return res.status(401).json({ error: 'Invalid username or password' });
+  }
+
+  const validPassword = await bcrypt.compare(password, user.password);
+
+  if (!validPassword) {
+    return res.status(401).json({ error: 'Invalid username or password' });
+  }
+
+  const token = jwt.sign({ userId: user.id }, JWT_SECRET, { expiresIn: '1h' });
+
+  res.json({ token });
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
