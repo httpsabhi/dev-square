@@ -25,11 +25,11 @@ app.post('/signup', async (req, res) => {
   try {
     const user = await prisma.user.create({
       data: {
-        email,
         username,
         name,
-        password: hashedPassword,
+        email,
         userType,
+        password: hashedPassword,
       },
     });
     res.status(201).json(user);
