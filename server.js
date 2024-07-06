@@ -23,7 +23,7 @@ app.post('/signup', async (req, res) => {
   const hashedPassword = await bcrypt.hash(password, 10);
 
   try {
-    const user = await prisma.user.create({
+    const user = await prisma.users.create({
       data: {
         username,
         name,
@@ -42,7 +42,7 @@ app.post('/signup', async (req, res) => {
 app.post('/login', async (req, res) => {
   const { username, password } = req.body;
 
-  const user = await prisma.user.findUnique({
+  const user = await prisma.users.findUnique({
     where: { username },
   });
 
