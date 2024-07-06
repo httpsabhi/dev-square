@@ -19,7 +19,7 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 // Signup route
 app.post('/signup', async (req, res) => {
-  const { email, username, name, password, userType } = req.body;
+  const { username, name, email, userType, password } = req.body;
 
   const hashedPassword = await bcrypt.hash(password, 10);
 
@@ -30,7 +30,7 @@ app.post('/signup', async (req, res) => {
         name,
         email,
         userType,
-        password: hashedPassword,
+        hashedPassword,
       },
     });
     res.status(201).json(user);
