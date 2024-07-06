@@ -11,7 +11,8 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cors({
-    origin: process.env.CORS_ORIGIN?.split(',')??['http://localhost:5173','http://localhost:3000','https://devsquaree.netlify.app']
+    origin: process.env.CORS_ORIGIN?.split(',')??['http://localhost:5173','http://localhost:3000','https://devsquaree.netlify.app'],
+    credentials: true
 }));
 
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -34,7 +35,7 @@ app.post('/signup', async (req, res) => {
     });
     res.status(201).json(user);
   } catch (error) {
-    res.status(400).json({ error: 'User creation failed' });
+    res.status(400).json(error);
   }
 });
 
