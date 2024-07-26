@@ -1,0 +1,869 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "slug": "alice-johnson",
+    "title": "CEO",
+    "company": "Tech Innovators Inc.",
+    "bio": "Alice Johnson is a seasoned entrepreneur with over 15 years of experience in the tech industry. She has successfully launched and scaled several startups.",
+    "location": "San Francisco, CA",
+    "skills": [
+      "Leadership",
+      "Business Strategy",
+      "Product Development"
+    ],
+    "linkedin": "https://www.linkedin.com/in/alicejohnson",
+    "twitter": "https://twitter.com/alicejohnson",
+    "profile_picture": "https://example.com/profiles/alice.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "slug": "bob-smith",
+    "title": "CTO",
+    "company": "NextGen Robotics",
+    "bio": "Bob Smith is a technical visionary with a passion for robotics and AI. He has a PhD in Computer Science and over 10 years of experience in the field.",
+    "location": "Boston, MA",
+    "skills": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Robotics"
+    ],
+    "linkedin": "https://www.linkedin.com/in/bobsmith",
+    "twitter": "https://twitter.com/bobsmith",
+    "profile_picture": "https://example.com/profiles/bob.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Davis",
+    "slug": "charlie-davis",
+    "title": "COO",
+    "company": "GreenTech Solutions",
+    "bio": "Charlie Davis specializes in operations and has helped multiple green tech startups streamline their processes and improve efficiency.",
+    "location": "Austin, TX",
+    "skills": [
+      "Operations",
+      "Sustainability",
+      "Efficiency"
+    ],
+    "linkedin": "https://www.linkedin.com/in/charliedavis",
+    "twitter": "https://twitter.com/charliedavis",
+    "profile_picture": "https://example.com/profiles/charlie.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dana Lee",
+    "slug": "dana-lee",
+    "title": "CMO",
+    "company": "HealthWave",
+    "bio": "Dana Lee is a marketing expert with a focus on health tech startups. She has a knack for creating compelling brand stories and driving user engagement.",
+    "location": "New York, NY",
+    "skills": [
+      "Marketing",
+      "Brand Strategy",
+      "User Engagement"
+    ],
+    "linkedin": "https://www.linkedin.com/in/danalee",
+    "twitter": "https://twitter.com/danalee",
+    "profile_picture": "https://example.com/profiles/dana.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Evan Brown",
+    "slug": "evan-brown",
+    "title": "Founder",
+    "company": "EduTech Innovations",
+    "bio": "Evan Brown has a background in education and technology. He founded EduTech Innovations to revolutionize the way students learn through technology.",
+    "location": "Chicago, IL",
+    "skills": [
+      "Education Technology",
+      "Innovation",
+      "Leadership"
+    ],
+    "linkedin": "https://www.linkedin.com/in/evanbrown",
+    "twitter": "https://twitter.com/evanbrown",
+    "profile_picture": "https://example.com/profiles/evan.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fiona Garcia",
+    "slug": "fiona-garcia",
+    "title": "Co-founder",
+    "company": "EcoSmart Solutions",
+    "bio": "Fiona Garcia is passionate about creating sustainable technology solutions. She co-founded EcoSmart Solutions to address environmental challenges through innovation.",
+    "location": "Portland, OR",
+    "skills": [
+      "Sustainability",
+      "Green Tech",
+      "Product Management"
+    ],
+    "linkedin": "https://www.linkedin.com/in/fionagarcia",
+    "twitter": "https://twitter.com/fionagarcia",
+    "profile_picture": "https://example.com/profiles/fiona.jpg"
+  },
+  {
+    "id": 7,
+    "name": "George Williams",
+    "slug": "george-williams",
+    "title": "Founder & CEO",
+    "company": "DataDrive Analytics",
+    "bio": "George Williams founded DataDrive Analytics to help businesses make data-driven decisions. He has a background in statistics and machine learning.",
+    "location": "Seattle, WA",
+    "skills": [
+      "Data Analysis",
+      "Business Intelligence",
+      "Machine Learning"
+    ],
+    "linkedin": "https://www.linkedin.com/in/georgewilliams",
+    "twitter": "https://twitter.com/georgewilliams",
+    "profile_picture": "https://example.com/profiles/george.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hannah Kim",
+    "slug": "hannah-kim",
+    "title": "CTO",
+    "company": "SecureTech",
+    "bio": "Hannah Kim is a cybersecurity expert who founded SecureTech to provide cutting-edge security solutions for businesses of all sizes.",
+    "location": "Washington D.C.",
+    "skills": [
+      "Cybersecurity",
+      "Network Architecture",
+      "Ethical Hacking"
+    ],
+    "linkedin": "https://www.linkedin.com/in/hannahkim",
+    "twitter": "https://twitter.com/hannahkim",
+    "profile_picture": "https://example.com/profiles/hannah.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ian Foster",
+    "slug": "ian-foster",
+    "title": "Founder",
+    "company": "VR Worlds",
+    "bio": "Ian Foster is a pioneer in virtual reality technology. His company, VR Worlds, is pushing the boundaries of immersive experiences in gaming and education.",
+    "location": "Los Angeles, CA",
+    "skills": [
+      "Virtual Reality",
+      "Game Development",
+      "3D Modeling"
+    ],
+    "linkedin": "https://www.linkedin.com/in/ianfoster",
+    "twitter": "https://twitter.com/ianfoster",
+    "profile_picture": "https://example.com/profiles/ian.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jessica Chen",
+    "slug": "jessica-chen",
+    "title": "CEO",
+    "company": "AI Solutions Inc.",
+    "bio": "Jessica Chen is at the forefront of AI innovation. Her company, AI Solutions Inc., develops AI-powered tools for businesses across various industries.",
+    "location": "Silicon Valley, CA",
+    "skills": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Business Strategy"
+    ],
+    "linkedin": "https://www.linkedin.com/in/jessicachen",
+    "twitter": "https://twitter.com/jessicachen",
+    "profile_picture": "https://example.com/profiles/jessica.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Kevin Patel",
+    "slug": "kevin-patel",
+    "title": "Founder & CTO",
+    "company": "CloudScale",
+    "bio": "Kevin Patel founded CloudScale to provide scalable cloud solutions for growing businesses. He has a strong background in cloud architecture and DevOps.",
+    "location": "Atlanta, GA",
+    "skills": [
+      "Cloud Computing",
+      "DevOps",
+      "Scalability"
+    ],
+    "linkedin": "https://www.linkedin.com/in/kevinpatel",
+    "twitter": "https://twitter.com/kevinpatel",
+    "profile_picture": "https://example.com/profiles/kevin.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Laura Martinez",
+    "slug": "laura-martinez",
+    "title": "Co-founder",
+    "company": "FinTech Revolution",
+    "bio": "Laura Martinez co-founded FinTech Revolution to democratize access to financial services. She has a background in finance and a passion for technology.",
+    "location": "Miami, FL",
+    "skills": [
+      "Financial Technology",
+      "Blockchain",
+      "Product Strategy"
+    ],
+    "linkedin": "https://www.linkedin.com/in/lauramartinez",
+    "twitter": "https://twitter.com/lauramartinez",
+    "profile_picture": "https://example.com/profiles/laura.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Michael Chang",
+    "slug": "michael-chang",
+    "title": "CEO",
+    "company": "BioTech Innovations",
+    "bio": "Michael Chang leads BioTech Innovations in developing cutting-edge biotechnology solutions. He has a Ph.D. in Molecular Biology and years of industry experience.",
+    "location": "Cambridge, MA",
+    "skills": [
+      "Biotechnology",
+      "Research & Development",
+      "Leadership"
+    ],
+    "linkedin": "https://www.linkedin.com/in/michaelchang",
+    "twitter": "https://twitter.com/michaelchang",
+    "profile_picture": "https://example.com/profiles/michael.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Natalie Wong",
+    "slug": "natalie-wong",
+    "title": "Founder",
+    "company": "EcoFashion",
+    "bio": "Natalie Wong founded EcoFashion to revolutionize the fashion industry with sustainable and ethically produced clothing.",
+    "location": "New York, NY",
+    "skills": [
+      "Sustainable Fashion",
+      "E-commerce",
+      "Supply Chain Management"
+    ],
+    "linkedin": "https://www.linkedin.com/in/nataliewong",
+    "twitter": "https://twitter.com/nataliewong",
+    "profile_picture": "https://example.com/profiles/natalie.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Oliver Reed",
+    "slug": "oliver-reed",
+    "title": "CTO",
+    "company": "SmartHome Systems",
+    "bio": "Oliver Reed is the technical brain behind SmartHome Systems, developing IoT solutions for modern homes.",
+    "location": "Denver, CO",
+    "skills": [
+      "Internet of Things",
+      "Embedded Systems",
+      "Home Automation"
+    ],
+    "linkedin": "https://www.linkedin.com/in/oliverreed",
+    "twitter": "https://twitter.com/oliverreed",
+    "profile_picture": "https://example.com/profiles/oliver.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Patricia Alvarez",
+    "slug": "patricia-alvarez",
+    "title": "Founder & CEO",
+    "company": "LanguageTech",
+    "bio": "Patricia Alvarez founded LanguageTech to break down language barriers using AI-powered translation tools.",
+    "location": "Barcelona, Spain",
+    "skills": [
+      "Natural Language Processing",
+      "Machine Translation",
+      "Multilingual AI"
+    ],
+    "linkedin": "https://www.linkedin.com/in/patriciaalvarez",
+    "twitter": "https://twitter.com/patriciaalvarez",
+    "profile_picture": "https://example.com/profiles/patricia.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Quincy Nguyen",
+    "slug": "quincy-nguyen",
+    "title": "Co-founder",
+    "company": "DroneWorks",
+    "bio": "Quincy Nguyen co-founded DroneWorks to innovate in the field of commercial and industrial drone applications.",
+    "location": "Houston, TX",
+    "skills": [
+      "Drone Technology",
+      "Aerial Imaging",
+      "Robotics"
+    ],
+    "linkedin": "https://www.linkedin.com/in/quincynguyen",
+    "twitter": "https://twitter.com/quincynguyen",
+    "profile_picture": "https://example.com/profiles/quincy.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Rachel Cohen",
+    "slug": "rachel-cohen",
+    "title": "Founder",
+    "company": "MindfulTech",
+    "bio": "Rachel Cohen founded MindfulTech to create technology solutions that promote mental health and wellbeing.",
+    "location": "Tel Aviv, Israel",
+    "skills": [
+      "Mental Health Tech",
+      "App Development",
+      "UX Design"
+    ],
+    "linkedin": "https://www.linkedin.com/in/rachelcohen",
+    "twitter": "https://twitter.com/rachelcohen",
+    "profile_picture": "https://example.com/profiles/rachel.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Samuel Okafor",
+    "slug": "samuel-okafor",
+    "title": "CEO",
+    "company": "AfriTech Solutions",
+    "bio": "Samuel Okafor leads AfriTech Solutions in developing innovative technology solutions for African markets.",
+    "location": "Lagos, Nigeria",
+    "skills": [
+      "Emerging Markets",
+      "Mobile Technology",
+      "Financial Inclusion"
+    ],
+    "linkedin": "https://www.linkedin.com/in/samuelokafor",
+    "twitter": "https://twitter.com/samuelokafor",
+    "profile_picture": "https://example.com/profiles/samuel.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Tara Singh",
+    "slug": "tara-singh",
+    "title": "Founder & CTO",
+    "company": "Quantum Compute",
+    "bio": "Tara Singh is pioneering advancements in quantum computing with her company, Quantum Compute.",
+    "location": "Bangalore, India",
+    "skills": [
+      "Quantum Computing",
+      "Algorithm Design",
+      "Physics"
+    ],
+    "linkedin": "https://www.linkedin.com/in/tarasingh",
+    "twitter": "https://twitter.com/tarasingh",
+    "profile_picture": "https://example.com/profiles/tara.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Umar Rashid",
+    "slug": "umar-rashid",
+    "title": "Co-founder",
+    "company": "EduAI",
+    "bio": "Umar Rashid co-founded EduAI to revolutionize personalized learning through artificial intelligence.",
+    "location": "Dubai, UAE",
+    "skills": [
+      "EdTech",
+      "Artificial Intelligence",
+      "Adaptive Learning"
+    ],
+    "linkedin": "https://www.linkedin.com/in/umarrashid",
+    "twitter": "https://twitter.com/umarrashid",
+    "profile_picture": "https://example.com/profiles/umar.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Victoria Lee",
+    "slug": "victoria-lee",
+    "title": "Founder & CEO",
+    "company": "CyberShield",
+    "bio": "Victoria Lee founded CyberShield to protect small and medium-sized businesses from cyber threats.",
+    "location": "Toronto, Canada",
+    "skills": [
+      "Cybersecurity",
+      "Risk Management",
+      "Network Security"
+    ],
+    "linkedin": "https://www.linkedin.com/in/victorialee",
+    "twitter": "https://twitter.com/victorialee",
+    "profile_picture": "https://example.com/profiles/victoria.jpg"
+  },
+  {
+    "id": 23,
+    "name": "William Chen",
+    "slug": "william-chen",
+    "title": "CTO",
+    "company": "AutoDrive Tech",
+    "bio": "William Chen leads the technical team at AutoDrive Tech, developing autonomous driving solutions for the automotive industry.",
+    "location": "Detroit, MI",
+    "skills": [
+      "Autonomous Vehicles",
+      "Computer Vision",
+      "Sensor Fusion"
+    ],
+    "linkedin": "https://www.linkedin.com/in/williamchen",
+    "twitter": "https://twitter.com/williamchen",
+    "profile_picture": "https://example.com/profiles/william.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Xiao Wang",
+    "slug": "xiao-wang",
+    "title": "Founder",
+    "company": "AgroTech Solutions",
+    "bio": "Xiao Wang founded AgroTech Solutions to bring innovative technology to agriculture and improve crop yields.",
+    "location": "Beijing, China",
+    "skills": [
+      "AgTech",
+      "IoT in Agriculture",
+      "Data Analytics"
+    ],
+    "linkedin": "https://www.linkedin.com/in/xiaowang",
+    "twitter": "https://twitter.com/xiaowang",
+    "profile_picture": "https://example.com/profiles/xiao-wang.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Xiao Wang",
+    "slug": "xiao-wang",
+    "title": "Founder",
+    "company": "AgroTech Solutions",
+    "bio": "Xiao Wang founded AgroTech Solutions to bring innovative technology to agriculture and improve crop yields.",
+    "location": "Beijing, China",
+    "skills": [
+      "AgTech",
+      "IoT in Agriculture",
+      "Data Analytics"
+    ],
+    "linkedin": "https://www.linkedin.com/in/xiaowang",
+    "twitter": "https://twitter.com/xiaowang",
+    "profile_picture": "https://example.com/profiles/xiao.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Yasmin Al-Fayed",
+    "slug": "yasmin-al-fayed",
+    "title": "CEO",
+    "company": "Desert Solar",
+    "bio": "Yasmin Al-Fayed leads Desert Solar in developing innovative solar energy solutions for arid climates.",
+    "location": "Abu Dhabi, UAE",
+    "skills": [
+      "Renewable Energy",
+      "Solar Technology",
+      "Sustainable Development"
+    ],
+    "linkedin": "https://www.linkedin.com/in/yasminalfayed",
+    "twitter": "https://twitter.com/yasminalfayed",
+    "profile_picture": "https://example.com/profiles/yasmin.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Zack Thompson",
+    "slug": "zack-thompson",
+    "title": "Founder & CTO",
+    "company": "NanoMed",
+    "bio": "Zack Thompson founded NanoMed to revolutionize drug delivery using nanotechnology.",
+    "location": "San Diego, CA",
+    "skills": [
+      "Nanotechnology",
+      "Bioengineering",
+      "Drug Delivery Systems"
+    ],
+    "linkedin": "https://www.linkedin.com/in/zackthompson",
+    "twitter": "https://twitter.com/zackthompson",
+    "profile_picture": "https://example.com/profiles/zack.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Aisha Kapoor",
+    "slug": "aisha-kapoor",
+    "title": "Co-founder",
+    "company": "FemTech Innovations",
+    "bio": "Aisha Kapoor co-founded FemTech Innovations to address women's health issues through technology.",
+    "location": "Mumbai, India",
+    "skills": [
+      "Women's Health",
+      "Mobile Health",
+      "AI in Healthcare"
+    ],
+    "linkedin": "https://www.linkedin.com/in/aishakapoor",
+    "twitter": "https://twitter.com/aishakapoor",
+    "profile_picture": "https://example.com/profiles/aisha.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Boris Novak",
+    "slug": "boris-novak",
+    "title": "Founder & CEO",
+    "company": "CryptoSecure",
+    "bio": "Boris Novak founded CryptoSecure to provide robust security solutions for cryptocurrency exchanges.",
+    "location": "Prague, Czech Republic",
+    "skills": [
+      "Blockchain Security",
+      "Cryptography",
+      "Financial Technology"
+    ],
+    "linkedin": "https://www.linkedin.com/in/borisnovak",
+    "twitter": "https://twitter.com/borisnovak",
+    "profile_picture": "https://example.com/profiles/boris.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Carla Rodriguez",
+    "slug": "carla-rodriguez",
+    "title": "CTO",
+    "company": "GenomeX",
+    "bio": "Carla Rodriguez leads the technical team at GenomeX, working on cutting-edge genomic sequencing technologies.",
+    "location": "Boston, MA",
+    "skills": [
+      "Genomics",
+      "Bioinformatics",
+      "Machine Learning in Biology"
+    ],
+    "linkedin": "https://www.linkedin.com/in/carlarodriguez",
+    "twitter": "https://twitter.com/carlarodriguez",
+    "profile_picture": "https://example.com/profiles/carla.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Dmitri Volkov",
+    "slug": "dmitri-volkov",
+    "title": "Founder",
+    "company": "AI Ethics Lab",
+    "bio": "Dmitri Volkov founded AI Ethics Lab to address ethical concerns in artificial intelligence development.",
+    "location": "Moscow, Russia",
+    "skills": [
+      "AI Ethics",
+      "Philosophy of Technology",
+      "Policy Development"
+    ],
+    "linkedin": "https://www.linkedin.com/in/dmitrivolkov",
+    "twitter": "https://twitter.com/dmitrivolkov",
+    "profile_picture": "https://example.com/profiles/dmitri.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Elena Costa",
+    "slug": "elena-costa",
+    "title": "CEO",
+    "company": "OceanTech Solutions",
+    "bio": "Elena Costa leads OceanTech Solutions in developing technologies for ocean conservation and sustainable fishing.",
+    "location": "Lisbon, Portugal",
+    "skills": [
+      "Marine Technology",
+      "Environmental Conservation",
+      "IoT in Oceans"
+    ],
+    "linkedin": "https://www.linkedin.com/in/elenacosta",
+    "twitter": "https://twitter.com/elenacosta",
+    "profile_picture": "https://example.com/profiles/elena.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Farid Mahmoud",
+    "slug": "farid-mahmoud",
+    "title": "Founder & CTO",
+    "company": "DesertGreen",
+    "bio": "Farid Mahmoud founded DesertGreen to combat desertification using AI and drone technology.",
+    "location": "Cairo, Egypt",
+    "skills": [
+      "Environmental Tech",
+      "Drone Technology",
+      "AI in Climate Solutions"
+    ],
+    "linkedin": "https://www.linkedin.com/in/faridmahmoud",
+    "twitter": "https://twitter.com/faridmahmoud",
+    "profile_picture": "https://example.com/profiles/farid.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Gabriela Santos",
+    "slug": "gabriela-santos",
+    "title": "Co-founder",
+    "company": "EduVR",
+    "bio": "Gabriela Santos co-founded EduVR to bring immersive virtual reality experiences to education.",
+    "location": "São Paulo, Brazil",
+    "skills": [
+      "Virtual Reality",
+      "EdTech",
+      "Instructional Design"
+    ],
+    "linkedin": "https://www.linkedin.com/in/gabrielasantos",
+    "twitter": "https://twitter.com/gabrielasantos",
+    "profile_picture": "https://example.com/profiles/gabriela.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Hiroshi Tanaka",
+    "slug": "hiroshi-tanaka",
+    "title": "Founder & CEO",
+    "company": "RoboCare",
+    "bio": "Hiroshi Tanaka founded RoboCare to develop robotic solutions for elderly care and assistance.",
+    "location": "Tokyo, Japan",
+    "skills": [
+      "Robotics",
+      "Gerontechnology",
+      "Human-Robot Interaction"
+    ],
+    "linkedin": "https://www.linkedin.com/in/hiroshitanaka",
+    "twitter": "https://twitter.com/hiroshitanaka",
+    "profile_picture": "https://example.com/profiles/hiroshi.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Isabella Rossi",
+    "slug": "isabella-rossi",
+    "title": "CTO",
+    "company": "FashionAI",
+    "bio": "Isabella Rossi leads the technical team at FashionAI, using AI to revolutionize fashion design and retail.",
+    "location": "Milan, Italy",
+    "skills": [
+      "AI in Fashion",
+      "Computer Vision",
+      "E-commerce Technology"
+    ],
+    "linkedin": "https://www.linkedin.com/in/isabellarossi",
+    "twitter": "https://twitter.com/isabellarossi",
+    "profile_picture": "https://example.com/profiles/isabella.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Jamal Abdullah",
+    "slug": "jamal-abdullah",
+    "title": "Founder",
+    "company": "CloudMed",
+    "bio": "Jamal Abdullah founded CloudMed to provide cloud-based solutions for telemedicine and remote patient monitoring.",
+    "location": "Dubai, UAE",
+    "skills": [
+      "Telemedicine",
+      "Cloud Computing",
+      "Health Informatics"
+    ],
+    "linkedin": "https://www.linkedin.com/in/jamalabdullah",
+    "twitter": "https://twitter.com/jamalabdullah",
+    "profile_picture": "https://example.com/profiles/jamal.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Kira Petrov",
+    "slug": "kira-petrov",
+    "title": "CEO",
+    "company": "QuantumSec",
+    "bio": "Kira Petrov leads QuantumSec in developing quantum-resistant cryptography solutions.",
+    "location": "Moscow, Russia",
+    "skills": [
+      "Quantum Cryptography",
+      "Cybersecurity",
+      "Post-Quantum Algorithms"
+    ],
+    "linkedin": "https://www.linkedin.com/in/kirapetrov",
+    "twitter": "https://twitter.com/kirapetrov",
+    "profile_picture": "https://example.com/profiles/kira.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Liam O'Connor",
+    "slug": "liam-oconnor",
+    "title": "Founder & CTO",
+    "company": "GreenTransit",
+    "bio": "Liam O'Connor founded GreenTransit to develop sustainable transportation solutions for smart cities.",
+    "location": "Dublin, Ireland",
+    "skills": [
+      "Smart Cities",
+      "Sustainable Transportation",
+      "IoT"
+    ],
+    "linkedin": "https://www.linkedin.com/in/liamoconnor",
+    "twitter": "https://twitter.com/liamoconnor",
+    "profile_picture": "https://example.com/profiles/liam.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Maria Gonzalez",
+    "slug": "maria-gonzalez",
+    "title": "Co-founder",
+    "company": "AgroAI",
+    "bio": "Maria Gonzalez co-founded AgroAI to bring artificial intelligence solutions to agriculture in developing countries.",
+    "location": "Mexico City, Mexico",
+    "skills": [
+      "AgriTech",
+      "AI in Agriculture",
+      "Sustainable Farming"
+    ],
+    "linkedin": "https://www.linkedin.com/in/mariagonzalez",
+    "twitter": "https://twitter.com/mariagonzalez",
+    "profile_picture": "https://example.com/profiles/maria.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Nolan Chang",
+    "slug": "nolan-chang",
+    "title": "Founder & CEO",
+    "company": "NeuroLink",
+    "bio": "Nolan Chang founded NeuroLink to develop brain-computer interface technologies for medical applications.",
+    "location": "Seoul, South Korea",
+    "skills": [
+      "Neurotechnology",
+      "Brain-Computer Interfaces",
+      "Medical Devices"
+    ],
+    "linkedin": "https://www.linkedin.com/in/nolanchang",
+    "twitter": "https://twitter.com/nolanchang",
+    "profile_picture": "https://example.com/profiles/nolan.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Olivia Müller",
+    "slug": "olivia-muller",
+    "title": "CTO",
+    "company": "CircularTech",
+    "bio": "Olivia Müller leads the technical team at CircularTech, developing technologies to support the circular economy.",
+    "location": "Berlin, Germany",
+    "skills": [
+      "Circular Economy",
+      "Waste Management Tech",
+      "Sustainable Design"
+    ],
+    "linkedin": "https://www.linkedin.com/in/oliviamuller",
+    "twitter": "https://twitter.com/oliviamuller",
+    "profile_picture": "https://example.com/profiles/olivia.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Paulo Silva",
+    "slug": "paulo-silva",
+    "title": "Founder",
+    "company": "FintechBridge",
+    "bio": "Paulo Silva founded FintechBridge to provide financial technology solutions for underbanked populations in South America.",
+    "location": "São Paulo, Brazil",
+    "skills": [
+      "Financial Inclusion",
+      "Mobile Banking",
+      "Blockchain in Finance"
+    ],
+    "linkedin": "https://www.linkedin.com/in/paulosilva",
+    "twitter": "https://twitter.com/paulosilva",
+    "profile_picture": "https://example.com/profiles/paulo.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Qian Li",
+    "slug": "qian-li",
+    "title": "Co-founder & CEO",
+    "company": "AILanguage",
+    "bio": "Qian Li co-founded AILanguage to develop AI-powered language learning platforms.",
+    "location": "Shanghai, China",
+    "skills": [
+      "EdTech",
+      "Natural Language Processing",
+      "AI in Education"
+    ],
+    "linkedin": "https://www.linkedin.com/in/qianli",
+    "twitter": "https://twitter.com/qianli",
+    "profile_picture": "https://example.com/profiles/qian.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Raj Patel",
+    "slug": "raj-patel",
+    "title": "Founder & CTO",
+    "company": "SmartFabrics",
+    "bio": "Raj Patel founded SmartFabrics to develop innovative smart textiles for healthcare and sports applications.",
+    "location": "Mumbai, India",
+    "skills": [
+      "Smart Textiles",
+      "Wearable Technology",
+      "IoT in Fabrics"
+    ],
+    "linkedin": "https://www.linkedin.com/in/rajpatel",
+    "twitter": "https://twitter.com/rajpatel",
+    "profile_picture": "https://example.com/profiles/raj.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Sofia Andersson",
+    "slug": "sofia-andersson",
+    "title": "CEO",
+    "company": "GreenEnergy Solutions",
+    "bio": "Sofia Andersson leads GreenEnergy Solutions in developing innovative renewable energy technologies.",
+    "location": "Stockholm, Sweden",
+    "skills": [
+      "Renewable Energy",
+      "Energy Storage",
+      "Sustainable Grid Solutions"
+    ],
+    "linkedin": "https://www.linkedin.com/in/sofiaandersson",
+    "twitter": "https://twitter.com/sofiaandersson",
+    "profile_picture": "https://example.com/profiles/sofia.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Tariq Hassan",
+    "slug": "tariq-hassan",
+    "title": "Founder",
+    "company": "WaterTech Innovations",
+    "bio": "Tariq Hassan founded WaterTech Innovations to develop water purification and conservation technologies for arid regions.",
+    "location": "Riyadh, Saudi Arabia",
+    "skills": [
+      "Water Technology",
+      "Desalination",
+      "Resource Management"
+    ],
+    "linkedin": "https://www.linkedin.com/in/tariqhassan",
+    "twitter": "https://twitter.com/tariqhassan",
+    "profile_picture": "https://example.com/profiles/tariq.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Uma Krishnan",
+    "slug": "uma-krishnan",
+    "title": "Co-founder & CTO",
+    "company": "BioInformatics Pro",
+    "bio": "Uma Krishnan co-founded BioInformatics Pro to provide advanced bioinformatics solutions for genomics research.",
+    "location": "Bangalore, India",
+    "skills": [
+      "Bioinformatics",
+      "Genomics",
+      "Machine Learning in Biology"
+    ],
+    "linkedin": "https://www.linkedin.com/in/umakrishnan",
+    "twitter": "https://twitter.com/umakrishnan",
+    "profile_picture": "https://example.com/profiles/uma.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Viktor Novak",
+    "slug": "viktor-novak",
+    "title": "Founder & CEO",
+    "company": "CloudStack Solutions",
+    "bio": "Viktor Novak is revolutionizing cloud infrastructure with CloudStack Solutions, focusing on scalability and security.",
+    "location": "Prague, Czech Republic",
+    "skills": [
+      "Cloud Computing",
+      "DevOps",
+      "Cybersecurity"
+    ],
+    "linkedin": "https://www.linkedin.com/in/viktornovak",
+    "twitter": "https://twitter.com/viktornovak",
+    "profile_picture": "https://example.com/profiles/viktor.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Aisha Patel",
+    "slug": "aisha-patel",
+    "title": "Lead Data Scientist",
+    "company": "AI Insights",
+    "bio": "Aisha Patel leads cutting-edge AI projects at AI Insights, specializing in natural language processing and computer vision.",
+    "location": "London, UK",
+    "skills": [
+      "Artificial Intelligence",
+      "NLP",
+      "Computer Vision"
+    ],
+    "linkedin": "https://www.linkedin.com/in/aishapatel",
+    "twitter": "https://twitter.com/aishapatel",
+    "profile_picture": "https://example.com/profiles/aisha.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Carlos Mendoza",
+    "slug": "carlos-mendoza",
+    "title": "VP of Engineering",
+    "company": "TechFusion Inc.",
+    "bio": "Carlos Mendoza drives innovation at TechFusion Inc., leading a team of engineers in developing cutting-edge software solutions.",
+    "location": "San Francisco, USA",
+    "skills": [
+      "Software Architecture",
+      "Team Leadership",
+      "Agile Methodologies"
+    ],
+    "linkedin": "https://www.linkedin.com/in/carlosmendoza",
+    "twitter": "https://twitter.com/carlosmendoza",
+    "profile_picture": "https://example.com/profiles/carlos.jpg"
+  }
+]

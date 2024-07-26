@@ -16,6 +16,7 @@ import Cards from "./components/Cards";
 import AdvancedSearch from "./components/SearchOptions";
 import ChatWithFriend from "./components/chatwithfriend";
 import HomeTab from "./components/Home/Home";
+import { Toaster } from "sonner";
 
 const store = createStore({
   authName: '_auth',
@@ -29,6 +30,7 @@ function AppWrapper() {
     <RecoilRoot>
       <AuthProvider store={store}>
         <BrowserRouter>
+        <Toaster position="top-right"/>
           <App />
         </BrowserRouter>
       </AuthProvider>

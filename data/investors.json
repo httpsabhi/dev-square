@@ -1,0 +1,801 @@
+[
+  {
+    "id": 1,
+    "name": "Carol White",
+    "slug": "carol-white",
+    "title": "Managing Partner",
+    "firm": "Venture Capital Partners",
+    "bio": "Carol White is a managing partner at Venture Capital Partners with a focus on early-stage tech startups. She has over 20 years of experience in venture capital.",
+    "location": "New York, NY",
+    "investment_focus": [
+      "FinTech",
+      "HealthTech",
+      "SaaS"
+    ],
+    "linkedin": "https://www.linkedin.com/in/carolwhite",
+    "twitter": "https://twitter.com/carolwhite",
+    "profile_picture": "https://example.com/profiles/carol.jpg"
+  },
+  {
+    "id": 2,
+    "name": "David Lee",
+    "slug": "david-lee",
+    "title": "Angel Investor",
+    "firm": "Independent",
+    "bio": "David Lee is an angel investor with a portfolio of over 30 successful startups. He specializes in seed and early-stage investments.",
+    "location": "Los Angeles, CA",
+    "investment_focus": [
+      "E-commerce",
+      "Mobile Apps",
+      "Consumer Goods"
+    ],
+    "linkedin": "https://www.linkedin.com/in/davidlee",
+    "twitter": "https://twitter.com/davidlee",
+    "profile_picture": "https://example.com/profiles/david.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fiona Green",
+    "slug": "fiona-green",
+    "title": "Venture Partner",
+    "firm": "Global Ventures",
+    "bio": "Fiona Green focuses on investing in global startups with a strong potential for growth. She has a keen eye for disruptive technologies.",
+    "location": "London, UK",
+    "investment_focus": [
+      "AI",
+      "Blockchain",
+      "Cybersecurity"
+    ],
+    "linkedin": "https://www.linkedin.com/in/fionagreen",
+    "twitter": "https://twitter.com/fionagreen",
+    "profile_picture": "https://example.com/profiles/fiona.jpg"
+  },
+  {
+    "id": 4,
+    "name": "George Harris",
+    "slug": "george-harris",
+    "title": "Principal",
+    "firm": "TechVentures",
+    "bio": "George Harris is a principal at TechVentures and has a background in engineering and finance. He is passionate about supporting tech startups.",
+    "location": "San Francisco, CA",
+    "investment_focus": [
+      "SaaS",
+      "IoT",
+      "Clean Energy"
+    ],
+    "linkedin": "https://www.linkedin.com/in/georgeharris",
+    "twitter": "https://twitter.com/georgeharris",
+    "profile_picture": "https://example.com/profiles/george.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Helen Kim",
+    "slug": "helen-kim",
+    "title": "Angel Investor",
+    "firm": "Independent",
+    "bio": "Helen Kim is an angel investor with a strong interest in social impact startups. She has a diverse portfolio and is committed to making a positive change.",
+    "location": "Seoul, South Korea",
+    "investment_focus": [
+      "Social Impact",
+      "EdTech",
+      "HealthTech"
+    ],
+    "linkedin": "https://www.linkedin.com/in/helenkim",
+    "twitter": "https://twitter.com/helenkim",
+    "profile_picture": "https://example.com/profiles/helen.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ivan Petrov",
+    "slug": "ivan-petrov",
+    "title": "Senior Partner",
+    "firm": "Eastern Europe Investments",
+    "bio": "Ivan Petrov specializes in identifying promising startups in Eastern Europe and helping them scale globally.",
+    "location": "Moscow, Russia",
+    "investment_focus": [
+      "DeepTech",
+      "Robotics",
+      "Enterprise Software"
+    ],
+    "linkedin": "https://www.linkedin.com/in/ivanpetrov",
+    "twitter": "https://twitter.com/ivanpetrov",
+    "profile_picture": "https://example.com/profiles/ivan.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jessica Chen",
+    "slug": "jessica-chen",
+    "title": "Managing Director",
+    "firm": "Asia Growth Capital",
+    "bio": "Jessica Chen leads investments in high-growth Asian startups, with a particular focus on the Chinese market.",
+    "location": "Shanghai, China",
+    "investment_focus": [
+      "E-commerce",
+      "Mobile Gaming",
+      "FinTech"
+    ],
+    "linkedin": "https://www.linkedin.com/in/jessicachen",
+    "twitter": "https://twitter.com/jessicachen",
+    "profile_picture": "https://example.com/profiles/jessica.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Kevin O'Brien",
+    "slug": "kevin-obrien",
+    "title": "General Partner",
+    "firm": "Green Tech Fund",
+    "bio": "Kevin O'Brien is passionate about sustainable technologies and invests in startups that are working to combat climate change.",
+    "location": "Dublin, Ireland",
+    "investment_focus": [
+      "Clean Energy",
+      "Sustainable Agriculture",
+      "Green Transportation"
+    ],
+    "linkedin": "https://www.linkedin.com/in/kevinobrien",
+    "twitter": "https://twitter.com/kevinobrien",
+    "profile_picture": "https://example.com/profiles/kevin.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Leila Hamid",
+    "slug": "leila-hamid",
+    "title": "Founding Partner",
+    "firm": "MENA Innovators",
+    "bio": "Leila Hamid focuses on investing in innovative startups across the Middle East and North Africa region.",
+    "location": "Dubai, UAE",
+    "investment_focus": [
+      "FinTech",
+      "EdTech",
+      "Smart Cities"
+    ],
+    "linkedin": "https://www.linkedin.com/in/leilahamid",
+    "twitter": "https://twitter.com/leilahamid",
+    "profile_picture": "https://example.com/profiles/leila.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Michael Schwartz",
+    "slug": "michael-schwartz",
+    "title": "Partner",
+    "firm": "Quantum Leap Ventures",
+    "bio": "Michael Schwartz specializes in quantum computing and other frontier technologies, investing in startups that push the boundaries of what's possible.",
+    "location": "Boston, MA",
+    "investment_focus": [
+      "Quantum Computing",
+      "Advanced Materials",
+      "Biotechnology"
+    ],
+    "linkedin": "https://www.linkedin.com/in/michaelschwartz",
+    "twitter": "https://twitter.com/michaelschwartz",
+    "profile_picture": "https://example.com/profiles/michael.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Nadia Bello",
+    "slug": "nadia-bello",
+    "title": "Principal Investor",
+    "firm": "Latin American Tech Fund",
+    "bio": "Nadia Bello focuses on identifying and nurturing tech talent across Latin America, with a particular interest in social impact startups.",
+    "location": "São Paulo, Brazil",
+    "investment_focus": [
+      "Social Impact",
+      "EdTech",
+      "FinTech"
+    ],
+    "linkedin": "https://www.linkedin.com/in/nadiabello",
+    "twitter": "https://twitter.com/nadiabello",
+    "profile_picture": "https://example.com/profiles/nadia.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Oliver Wright",
+    "slug": "oliver-wright",
+    "title": "Managing Partner",
+    "firm": "Digital Futures Capital",
+    "bio": "Oliver Wright invests in startups at the forefront of digital transformation, with a keen interest in AI and machine learning applications.",
+    "location": "Toronto, Canada",
+    "investment_focus": [
+      "AI",
+      "Machine Learning",
+      "Big Data"
+    ],
+    "linkedin": "https://www.linkedin.com/in/oliverwright",
+    "twitter": "https://twitter.com/oliverwright",
+    "profile_picture": "https://example.com/profiles/oliver.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Priya Sharma",
+    "slug": "priya-sharma",
+    "title": "Venture Partner",
+    "firm": "Health Innovations Fund",
+    "bio": "Priya Sharma specializes in healthcare technology investments, supporting startups that are revolutionizing patient care and medical research.",
+    "location": "Mumbai, India",
+    "investment_focus": [
+      "HealthTech",
+      "Biotech",
+      "Medical Devices"
+    ],
+    "linkedin": "https://www.linkedin.com/in/priyasharma",
+    "twitter": "https://twitter.com/priyasharma",
+    "profile_picture": "https://example.com/profiles/priya.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Quinn Martinez",
+    "slug": "quinn-martinez",
+    "title": "Founding Partner",
+    "firm": "NextGen Robotics Fund",
+    "bio": "Quinn Martinez is passionate about robotics and automation, investing in startups that are shaping the future of work and industry.",
+    "location": "Austin, TX",
+    "investment_focus": [
+      "Robotics",
+      "Automation",
+      "Industrial IoT"
+    ],
+    "linkedin": "https://www.linkedin.com/in/quinnmartinez",
+    "twitter": "https://twitter.com/quinnmartinez",
+    "profile_picture": "https://example.com/profiles/quinn.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Rachel Kim",
+    "slug": "rachel-kim",
+    "title": "General Partner",
+    "firm": "Pacific Rim Ventures",
+    "bio": "Rachel Kim focuses on cross-border investments between Asia and North America, with a particular interest in consumer technology.",
+    "location": "San Francisco, CA",
+    "investment_focus": [
+      "Consumer Tech",
+      "Mobile Apps",
+      "E-commerce"
+    ],
+    "linkedin": "https://www.linkedin.com/in/rachelkim",
+    "twitter": "https://twitter.com/rachelkim",
+    "profile_picture": "https://example.com/profiles/rachel.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Samuel Okafor",
+    "slug": "samuel-okafor",
+    "title": "Managing Director",
+    "firm": "African Innovation Capital",
+    "bio": "Samuel Okafor is dedicated to fostering innovation across Africa, investing in startups that address local challenges and have global potential.",
+    "location": "Lagos, Nigeria",
+    "investment_focus": [
+      "FinTech",
+      "AgriTech",
+      "Clean Energy"
+    ],
+    "linkedin": "https://www.linkedin.com/in/samuelokafor",
+    "twitter": "https://twitter.com/samuelokafor",
+    "profile_picture": "https://example.com/profiles/samuel.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Tessa Brown",
+    "slug": "tessa-brown",
+    "title": "Partner",
+    "firm": "Sustainable Future Fund",
+    "bio": "Tessa Brown invests in startups focused on sustainability and circular economy solutions, aiming to create a more environmentally friendly future.",
+    "location": "Melbourne, Australia",
+    "investment_focus": [
+      "Clean Tech",
+      "Sustainable Materials",
+      "Waste Management"
+    ],
+    "linkedin": "https://www.linkedin.com/in/tessabrown",
+    "twitter": "https://twitter.com/tessabrown",
+    "profile_picture": "https://example.com/profiles/tessa.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Umar Farooq",
+    "slug": "umar-farooq",
+    "title": "Founding Partner",
+    "firm": "Islamic Finance Ventures",
+    "bio": "Umar Farooq specializes in Sharia-compliant investments, focusing on innovative startups in the Islamic finance and halal economy sectors.",
+    "location": "Kuala Lumpur, Malaysia",
+    "investment_focus": [
+      "Islamic FinTech",
+      "Halal Economy",
+      "Ethical Investments"
+    ],
+    "linkedin": "https://www.linkedin.com/in/umarfarooq",
+    "twitter": "https://twitter.com/umarfarooq",
+    "profile_picture": "https://example.com/profiles/umar.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Victoria Chen",
+    "slug": "victoria-chen",
+    "title": "Managing Partner",
+    "firm": "Women in Tech Fund",
+    "bio": "Victoria Chen is passionate about supporting female entrepreneurs and invests in women-led startups across various tech sectors.",
+    "location": "New York, NY",
+    "investment_focus": [
+      "Female-led Startups",
+      "Diversity in Tech",
+      "Social Impact"
+    ],
+    "linkedin": "https://www.linkedin.com/in/victoriachen",
+    "twitter": "https://twitter.com/victoriachen",
+    "profile_picture": "https://example.com/profiles/victoria.jpg"
+  },
+  {
+    "id": 20,
+    "name": "William Taylor",
+    "slug": "william-taylor",
+    "title": "Senior Partner",
+    "firm": "Blockchain Ventures",
+    "bio": "William Taylor is at the forefront of blockchain and cryptocurrency investments, supporting startups that are building the future of decentralized finance.",
+    "location": "Zurich, Switzerland",
+    "investment_focus": [
+      "Blockchain",
+      "Cryptocurrency",
+      "DeFi"
+    ],
+    "linkedin": "https://www.linkedin.com/in/williamtaylor",
+    "twitter": "https://twitter.com/williamtaylor",
+    "profile_picture": "https://example.com/profiles/william.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Xia Li",
+    "slug": "xia-li",
+    "title": "General Partner",
+    "firm": "Asia Tech Accelerator",
+    "bio": "Xia Li focuses on early-stage investments in Asian tech startups, helping them scale and expand into global markets.",
+    "location": "Singapore",
+    "investment_focus": [
+      "AI",
+      "E-commerce",
+      "Mobile Technology"
+    ],
+    "linkedin": "https://www.linkedin.com/in/xiali",
+    "twitter": "https://twitter.com/xiali",
+    "profile_picture": "https://example.com/profiles/xia.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Yuki Tanaka",
+    "slug": "yuki-tanaka",
+    "title": "Managing Director",
+    "firm": "Japan Innovation Fund",
+    "bio": "Yuki Tanaka invests in cutting-edge Japanese startups, with a focus on robotics, AI, and IoT technologies.",
+    "location": "Tokyo, Japan",
+    "investment_focus": [
+      "Robotics",
+      "AI",
+      "IoT"
+    ],
+    "linkedin": "https://www.linkedin.com/in/yukitanaka",
+    "twitter": "https://twitter.com/yukitanaka",
+    "profile_picture": "https://example.com/profiles/yuki.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Zara Malik",
+    "slug": "zara-malik",
+    "title": "Founding Partner",
+    "firm": "Emerging Markets Tech Fund",
+    "bio": "Zara Malik specializes in identifying promising tech startups in emerging markets, with a particular focus on South Asia and Southeast Asia.",
+    "location": "Jakarta, Indonesia",
+    "investment_focus": [
+      "FinTech",
+      "E-commerce",
+      "Mobility"
+    ],
+    "linkedin": "https://www.linkedin.com/in/zaramalik",
+    "twitter": "https://twitter.com/zaramalik",
+    "profile_picture": "https://example.com/profiles/zara.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Alex Morgan",
+    "slug": "alex-morgan",
+    "title": "Partner",
+    "firm": "Sports Tech Ventures",
+    "bio": "Alex Morgan invests in startups that are revolutionizing the sports industry through technology and innovation.",
+    "location": "Los Angeles, CA",
+    "investment_focus": [
+      "Sports Technology",
+      "Fitness Tech",
+      "E-sports"
+    ],
+    "linkedin": "https://www.linkedin.com/in/alexmorgan",
+    "twitter": "https://twitter.com/alexmorgan",
+    "profile_picture": "https://example.com/profiles/alex.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Benjamin Cohen",
+    "slug": "benjamin-cohen",
+    "title": "Managing Partner",
+    "firm": "Quantum Computing Investments",
+    "bio": "Benjamin Cohen is at the forefront of quantum computing investments, supporting startups that are pushing the boundaries of computational power.",
+    "location": "Tel Aviv, Israel",
+    "investment_focus": [
+      "Quantum Computing",
+      "Advanced Algorithms",
+      "Cryptography"
+    ],
+    "linkedin": "https://www.linkedin.com/in/benjamincohen",
+    "twitter": "https://twitter.com/benjamincohen",
+    "profile_picture": "https://example.com/profiles/benjamin.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Chloe Nguyen",
+    "slug": "chloe-nguyen",
+    "title": "Venture Partner",
+    "firm": "Southeast Asia Growth Fund",
+    "bio": "Chloe Nguyen focuses on high-growth startups in Southeast Asia, with a particular interest in digital transformation and e-commerce.",
+    "location": "Ho Chi Minh City, Vietnam",
+    "investment_focus": [
+      "E-commerce",
+      "Digital Transformation",
+      "FinTech"
+    ],
+    "linkedin": "https://www.linkedin.com/in/chloenguyenc",
+    "twitter": "https://twitter.com/chloenguyenc",
+    "profile_picture": "https://example.com/profiles/chloe.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Daniel Muñoz",
+    "slug": "daniel-munoz",
+    "title": "General Partner",
+    "firm": "Latin American Innovators",
+    "bio": "Daniel Muñoz invests in innovative startups across Latin America, with a focus on solutions addressing local challenges.",
+    "location": "Mexico City, Mexico",
+    "investment_focus": [
+      "FinTech",
+      "EdTech",
+      "Smart Cities"
+    ],
+    "linkedin": "https://www.linkedin.com/in/danielmunoz",
+    "twitter": "https://twitter.com/danielmunoz",
+    "profile_picture": "https://example.com/profiles/daniel.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Emma Wilson",
+    "slug": "emma-wilson",
+    "title": "Principal",
+    "firm": "Green Energy Capital",
+    "bio": "Emma Wilson is passionate about clean energy and invests in startups developing innovative solutions for a sustainable future.",
+    "location": "Copenhagen, Denmark",
+    "investment_focus": [
+      "Renewable Energy",
+      "Energy Storage",
+      "Smart Grid"
+    ],
+    "linkedin": "https://www.linkedin.com/in/emmawilson",
+    "twitter": "https://twitter.com/emmawilson",
+    "profile_picture": "https://example.com/profiles/emma.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Fahad Al-Saud",
+    "slug": "fahad-al-saud",
+    "title": "Managing Director",
+    "firm": "Middle East Tech Fund",
+    "bio": "Fahad Al-Saud focuses on tech investments in the Middle East, supporting startups that are driving digital transformation in the region.",
+    "location": "Riyadh, Saudi Arabia",
+    "investment_focus": [
+      "FinTech",
+      "E-commerce",
+      "Digital Media"
+    ],
+    "linkedin": "https://www.linkedin.com/in/fahadalsaud",
+    "twitter": "https://twitter.com/fahadalsaud",
+    "profile_picture": "https://example.com/profiles/fahad.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Gabriela Santos",
+    "slug": "gabriela-santos",
+    "title": "Founding Partner",
+    "firm": "Impact Investing Brazil",
+    "bio": "Gabriela Santos invests in startups that combine profit with social and environmental impact in Brazil and beyond.",
+    "location": "São Paulo, Brazil",
+    "investment_focus": [
+      "Social Impact",
+      "Sustainable Business",
+      "HealthTech"
+    ],
+    "linkedin": "https://www.linkedin.com/in/gabrielasantos",
+    "twitter": "https://twitter.com/gabrielasantos",
+    "profile_picture": "https://example.com/profiles/gabriela.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Hiroshi Yamamoto",
+    "slug": "hiroshi-yamamoto",
+    "title": "Senior Partner",
+    "firm": "Tokyo Deep Tech Fund",
+    "bio": "Hiroshi Yamamoto specializes in deep tech investments, supporting startups working on cutting-edge technologies in Japan and globally.",
+    "location": "Tokyo, Japan",
+    "investment_focus": [
+      "AI",
+      "Robotics",
+      "Biotechnology"
+    ],
+    "linkedin": "https://www.linkedin.com/in/hiroshiyamamoto",
+    "twitter": "https://twitter.com/hiroshiyamamoto",
+    "profile_picture": "https://example.com/profiles/hiroshi.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Isabella Rossi",
+    "slug": "isabella-rossi",
+    "title": "Partner",
+    "firm": "European Fashion Tech Fund",
+    "bio": "Isabella Rossi invests in startups at the intersection of fashion and technology, supporting innovation in the fashion industry.",
+    "location": "Milan, Italy",
+    "investment_focus": [
+      "Fashion Tech",
+      "E-commerce",
+      "Sustainable Fashion"
+    ],
+    "linkedin": "https://www.linkedin.com/in/isabellarossi",
+    "twitter": "https://twitter.com/isabellarossi",
+    "profile_picture": "https://example.com/profiles/isabella.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Jack Thompson",
+    "slug": "jack-thompson",
+    "title": "Managing Partner",
+    "firm": "Australia Tech Ventures",
+    "bio": "Jack Thompson focuses on tech investments in Australia and New Zealand, supporting startups with global ambitions.",
+    "location": "Sydney, Australia",
+    "investment_focus": [
+      "FinTech",
+      "AgTech",
+      "Clean Energy"
+    ],
+    "linkedin": "https://www.linkedin.com/in/jackthompson",
+    "twitter": "https://twitter.com/jackthompson",
+    "profile_picture": "https://example.com/profiles/jack.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Kira Volkov",
+    "slug": "kira-volkov",
+    "title": "General Partner",
+    "firm": "Eastern European Innovations",
+    "bio": "Kira Volkov invests in innovative startups across Eastern Europe, helping them scale and expand into global markets.",
+    "location": "Warsaw, Poland",
+    "investment_focus": [
+      "SaaS",
+      "Cybersecurity",
+      "AI"
+    ],
+    "linkedin": "https://www.linkedin.com/in/kiravolkov",
+    "twitter": "https://twitter.com/kiravolkov",
+    "profile_picture": "https://example.com/profiles/kira.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Leo Chen",
+    "slug": "leo-chen",
+    "title": "Founding Partner",
+    "firm": "Greater China Tech Fund",
+    "bio": "Leo Chen specializes in tech investments in Greater China, focusing on startups with strong growth potential and innovative business models.",
+    "location": "Hong Kong",
+    "investment_focus": [
+      "E-commerce",
+      "FinTech",
+      "AI"
+    ],
+    "linkedin": "https://www.linkedin.com/in/leochen",
+    "twitter": "https://twitter.com/leochen",
+    "profile_picture": "https://example.com/profiles/leo.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Maya Patel",
+    "slug": "maya-patel",
+    "title": "Partner",
+    "firm": "India Digital Growth",
+    "bio": "Maya Patel invests in digital-first startups in India, supporting the country's rapidly growing tech ecosystem.",
+    "location": "Bangalore, India",
+    "investment_focus": [
+      "Digital Media",
+      "EdTech",
+      "HealthTech"
+    ],
+    "linkedin": "https://www.linkedin.com/in/mayapatel",
+    "twitter": "https://twitter.com/mayapatel",
+    "profile_picture": "https://example.com/profiles/maya.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Nikolai Ivanov",
+    "slug": "nikolai-ivanov",
+    "title": "Managing Director",
+    "firm": "Russian Tech Accelerator",
+    "bio": "Nikolai Ivanov focuses on early-stage tech startups in Russia, providing both capital and mentorship to help them succeed.",
+    "location": "Moscow, Russia",
+    "investment_focus": [
+      "AI",
+      "Blockchain",
+      "IoT"
+    ],
+    "linkedin": "https://www.linkedin.com/in/nikolaiivanov",
+    "twitter": "https://twitter.com/nikolaiivanov",
+    "profile_picture": "https://example.com/profiles/nikolai.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Olivia Brown",
+    "slug": "olivia-brown",
+    "title": "Principal",
+    "firm": "Sustainable Oceans Fund",
+    "bio": "Olivia Brown invests in startups developing technologies to protect and sustainably use ocean resources.",
+    "location": "San Diego, CA",
+    "investment_focus": [
+      "Ocean Tech",
+      "Sustainable Fishing",
+      "Marine Conservation"
+    ],
+    "linkedin": "https://www.linkedin.com/in/oliviabrown",
+    "twitter": "https://twitter.com/oliviabrown",
+    "profile_picture": "https://example.com/profiles/olivia.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Paulo Silva",
+    "slug": "paulo-silva",
+    "title": "General Partner",
+    "firm": "Portugal Tech Ventures",
+    "bio": "Paulo Silva focuses on tech investments in Portugal and other Portuguese-speaking countries, supporting the growing startup ecosystem.",
+    "location": "Lisbon, Portugal",
+    "investment_focus": [
+      "FinTech",
+      "Tourism Tech",
+      "Smart Cities"
+    ],
+    "linkedin": "https://www.linkedin.com/in/paulosilva",
+    "twitter": "https://twitter.com/paulosilva",
+    "profile_picture": "https://example.com/profiles/paulo.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Qian Zhang",
+    "slug": "qian-zhang",
+    "title": "Venture Partner",
+    "firm": "China-US Bridge Fund",
+    "bio": "Qian Zhang specializes in cross-border investments between China and the US, focusing on startups with global potential.",
+    "location": "Shanghai, China",
+    "investment_focus": [
+      "AI",
+      "Robotics",
+      "Advanced Manufacturing"
+    ],
+    "linkedin": "https://www.linkedin.com/in/qianzhang",
+    "twitter": "https://twitter.com/qianzhang",
+    "profile_picture": "https://example.com/profiles/qian.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Rania Al-Hassan",
+    "slug": "rania-al-hassan",
+    "title": "Managing Partner",
+    "firm": "MENA Women in Tech Fund",
+    "bio": "Rania Al-Hassan invests in women-led tech startups across the Middle East and North Africa region.",
+    "location": "Dubai, UAE",
+    "investment_focus": [
+      "Women-led Startups",
+      "FinTech",
+      "EdTech"
+    ],
+    "linkedin": "https://www.linkedin.com/in/raniaalhassan",
+    "twitter": "https://twitter.com/raniaalhassan",
+    "profile_picture": "https://example.com/profiles/rania.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Sven Eriksson",
+    "slug": "sven-eriksson",
+    "title": "Founding Partner",
+    "firm": "Nordic Green Tech Fund",
+    "bio": "Sven Eriksson focuses on green tech investments in the Nordic countries, supporting startups that contribute to a sustainable future.",
+    "location": "Stockholm, Sweden",
+    "investment_focus": [
+      "Clean Energy",
+      "Circular Economy",
+      "Sustainable Transportation"
+    ],
+    "linkedin": "https://www.linkedin.com/in/sveneriksson",
+    "twitter": "https://twitter.com/sveneriksson",
+    "profile_picture": "https://example.com/profiles/sven.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Tara O'Neill",
+    "slug": "tara-oneill",
+    "title": "Partner",
+    "firm": "Irish Tech Growth",
+    "bio": "Tara O'Neill invests in high-potential tech startups in Ireland, helping them scale and compete on the global stage.",
+    "location": "Dublin, Ireland",
+    "investment_focus": [
+      "SaaS",
+      "FinTech",
+      "Digital Health"
+    ],
+    "linkedin": "https://www.linkedin.com/in/taraoneill",
+    "twitter": "https://twitter.com/taraoneill",
+    "profile_picture": "https://example.com/profiles/tara.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Uday Sharma",
+    "slug": "uday-sharma",
+    "title": "Managing Director",
+    "firm": "South Asia Tech Fund",
+    "bio": "Uday Sharma focuses on tech investments across South Asia, supporting startups that address regional challenges and opportunities.",
+    "location": "New Delhi, India",
+    "investment_focus": [
+      "FinTech",
+      "AgTech",
+      "E-commerce"
+    ],
+    "linkedin": "https://www.linkedin.com/in/udaysharma",
+    "twitter": "https://twitter.com/udaysharma",
+    "profile_picture": "https://example.com/profiles/uday.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Valentina Rossi",
+    "slug": "valentina-rossi",
+    "title": "General Partner",
+    "firm": "Mediterranean Tech Ventures",
+    "bio": "Valentina Rossi invests in tech startups across Mediterranean countries, focusing on cross-border collaborations and innovations.",
+    "location": "Barcelona, Spain",
+    "investment_focus": [
+      "Smart Tourism",
+      "Blue Economy",
+      "Sustainable Agriculture"
+    ],
+    "linkedin": "https://www.linkedin.com/in/valentinarossi",
+    "twitter": "https://twitter.com/valentinarossi",
+    "profile_picture": "https://example.com/profiles/valentina.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Wei Chen",
+    "slug": "wei-chen",
+    "title": "Partner",
+    "firm": "Taiwan Semiconductor Fund",
+    "bio": "Wei Chen specializes in semiconductor and hardware investments, supporting startups in Taiwan's thriving tech ecosystem.",
+    "location": "Taipei, Taiwan",
+    "investment_focus": [
+      "Semiconductors",
+      "IoT Hardware",
+      "5G Technologies"
+    ],
+    "linkedin": "https://www.linkedin.com/in/weichen",
+    "twitter": "https://twitter.com/weichen",
+    "profile_picture": "https://example.com/profiles/wei.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Xander van der Berg",
+    "slug": "xander-van-der-berg",
+    "title": "Founding Partner",
+    "firm": "Benelux Innovation Capital",
+    "bio": "Xander van der Berg invests in innovative startups across Belgium, the Netherlands, and Luxembourg, focusing on sustainable technologies.",
+    "location": "Amsterdam, Netherlands",
+    "investment_focus": [
+      "Clean Tech",
+      "Smart Mobility",
+      "Circular Economy"
+    ],
+    "linkedin": "https://www.linkedin.com/in/xandervandenberg",
+    "twitter": "https://twitter.com/xandervandenberg",
+    "profile_picture": "https://example.com/profiles/xander.jpg"
+  }
+]
