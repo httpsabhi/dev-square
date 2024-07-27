@@ -17,6 +17,7 @@ import AdvancedSearch from "./components/SearchOptions";
 import ChatWithFriend from "./components/chatwithfriend";
 import HomeTab from "./components/Home/Home";
 import { Toaster } from "sonner";
+import { Startups } from "./pages/Startups";
 
 const store = createStore({
   authName: '_auth',
@@ -56,6 +57,7 @@ function App() {
         <Route path='/forum' element={<Forum />} />
         <Route path='/search' element={<AdvancedSearch />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/startups' element={<Startups />} />
         <Route path='/login' element={<Authentication />} />
         <Route element={<ProtectedRoute fallbackPath='/home' />}>
           {/* <Route path='/' element={isAuth ? <Navigate to='/dashboard' /> : <Navigate to='/login' />} /> */}

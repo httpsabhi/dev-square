@@ -26,21 +26,26 @@ app.get("/data" , async(req, res) =>{
 })
 
 app.get("/startups" , async (req , res) =>{
-  try{
-    const resp = await startups.findOne({
-      name : "SlyakaOfficial",
-    })
-    console.log(resp)
-    res.json({
-      name : resp?.name,
-      founders : resp?.founders,
-
-    })
-  }
-  catch(e) {
-    res.send(false)
+  try {
+  
+    const resp = await startups.find()
+    
+    console.log(resp);
+    res.json(resp);
+  } catch (e) {
+    console.error("An error occurred:", e);
+    res.status(500).send(false);
   }
 })
-app.get
+// app.get("/edit" , async (req,res)=>{
+//   try{
+//     const resp = await startups.updateMany({
+//       image : "https://firebasestorage.googleapis.com/v0/b/chatapp-4deee.appspot.com/o/ProfilePics%2Fdefault-pic.jpg?alt=media&token=8edde63e-f164-44b4-a1c2-6e912f2fd76b"
+//     })
+//   }
+//   catch{
+//     console.error("Error updating data!")
+//   }
+// })
 
 app.listen(3000)

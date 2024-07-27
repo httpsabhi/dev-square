@@ -6,7 +6,7 @@ export function Dashboard() {
   const [profiles, setProfiles] = useState([]);
   const [filteredProfiles, setFilteredProfiles] = useState([]);
   const [filterOn, setFilterOn] = useState(false);
-  const [data, setData] = useState({});
+  const [data, setData] = useState({}[{}]);
 
   // Fetch data on component mount
   useEffect(() => {
@@ -87,7 +87,7 @@ export function Dashboard() {
             <img
               src={profile.profile_picture}
               alt={`${profile.name}'s profile`}
-              className="w-16 h-16 rounded-full mx-auto"
+              className="w-16 h-16 rounded-full mx-auto border border-black"
             />
             <h2 className="text-center text-xl font-semibold mt-2">
               {profile.name}

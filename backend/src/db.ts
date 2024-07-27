@@ -81,7 +81,7 @@ export const schema = new mongoose.Schema({
   siftery_products: ["string"],
   funding_rounds_list: ["string"],
   bombora: ["string"],
-  investors: ["string"],
+  investors: ["array"],
   event_appearances: ["string"],
   acquisitions: ["string"],
   funds_raised: ["string"],
@@ -110,7 +110,7 @@ export const schema = new mongoose.Schema({
   technology_highlights: {
     type: "object"
   },
-  founders: "string",
+  founders: "array",
   funds_total: "string",
   acquired_by: "string",
   investor_type: "string",
